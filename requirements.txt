@@ -1,0 +1,5 @@
+datasets
+chromadb
+sentence-transformers
+python-dotenv 
+google-genai
