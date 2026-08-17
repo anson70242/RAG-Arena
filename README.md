@@ -1,6 +1,6 @@
 # RAG Arena
 
-A minimal playground comparing **Native RAG** and **Reranking RAG** architectures.
+Aiming for the easiest frameworkless implementation of different RAG approaches, including **Native RAG**, **Reranking RAG**, **Graph-RAG**, **LLM-wiki**, and **Agentic-RAG**.
 
 > **Important Note:** The data used in this experiment is already chunked.
 
@@ -10,7 +10,7 @@ Use `uv` to create a virtual environment and install dependencies (Windows):
 
 ```bash
 uv venv --python 3.11 .venv
-.venv\Scripts\activate
+.venv\Scripts\activate # source .venv/bin/activate for linux/mac
 uv pip install -r requirements.txt
 ```
 
